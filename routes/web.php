@@ -2,6 +2,7 @@
 
 use App\Livewire\AboutPage;
 use App\Livewire\ContactPage;
+use App\Livewire\EmployeeForm;
 use App\Livewire\HomePage;
 use Illuminate\Support\Facades\Route;
 
@@ -24,3 +25,6 @@ Route::get('/contact', function () {
     return view('contact-page');
 })->name('contact');
 
+Route::get('/employee', function () {
+    return view('employee-page');
+})->name('employee');

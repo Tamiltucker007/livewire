@@ -6,6 +6,7 @@
             <ul class="navbar-nav ms-auto my-2 my-lg-0">
                 <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('employee') }}">Employee</a></li>
             </ul>
         </div>
     </div>
